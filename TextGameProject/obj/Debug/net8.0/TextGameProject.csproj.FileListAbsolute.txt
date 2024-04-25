@@ -1,0 +1,14 @@
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\bin\Debug\net8.0\TextGameProject.exe
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\bin\Debug\net8.0\TextGameProject.deps.json
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\bin\Debug\net8.0\TextGameProject.runtimeconfig.json
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\bin\Debug\net8.0\TextGameProject.dll
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\bin\Debug\net8.0\TextGameProject.pdb
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.AssemblyInfoInputs.cache
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.AssemblyInfo.cs
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.csproj.CoreCompileInputs.cache
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.dll
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\refint\TextGameProject.dll
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.pdb
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\TextGameProject.genruntimeconfig.cache
+C:\Users\milky\Desktop\Project\CShape\Myproject\TextGameProject\TextGameProject\obj\Debug\net8.0\ref\TextGameProject.dll
