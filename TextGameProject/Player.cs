@@ -28,6 +28,7 @@ namespace TextGameProject
         {
             if(clearCount >= 5)
             {
+                Console.WriteLine("\t\t\t\t[LevelUp]");
                 this.level++;
                 this.attack += 1;
                 this.defense += 1;

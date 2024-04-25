@@ -46,7 +46,7 @@ namespace TextGameProject
                 }
                 else
                 {
-                    Console.WriteLine("잘못된 입력입니다. 다시 시도하세요.");
+                    Console.WriteLine("\t\t\t\t\t[올바른 옵션을 선택하세요.]");
                 }
             }
         }
@@ -54,7 +54,7 @@ namespace TextGameProject
         private static void BuyItem(Player player, FileManager fileManager, List<ShopItemInfo> shopItems)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\n\"아이고 손님. 구매하시렵니까!! 스파르타 마을에서 제일가는......\"\n");
+            Console.WriteLine("\n\"아이고 손님. 구매하시렵니까!! 스파르타 마을에서 제일가는......\"");
             Console.WriteLine("(심드렁하던 주인장이 시끄럽게 떠들기시작한다.)\n");
             Console.ResetColor();
             int num = 1;
@@ -85,7 +85,7 @@ namespace TextGameProject
                 int rad = random.Next(0, 4);
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine($"\n\"아이고 이 {shopItem.itemName}은 말입죠..! \"\n");
+                Console.WriteLine($"\n\"아이고 이 {shopItem.itemName}은 말입죠..! \"");
                 switch (rad)
                 {
                     case 0:
@@ -143,7 +143,7 @@ namespace TextGameProject
                     else if (shopItem.isPurchased)
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.WriteLine("\n\"이미 구매한 아이템입니다!\"\n");
+                        Console.WriteLine("\n\"이미 구매한 아이템입니다!\"");
                         Console.ResetColor();
                         Console.WriteLine("1. 확인");
                         Console.Write(">> ");
@@ -157,7 +157,7 @@ namespace TextGameProject
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.WriteLine("\n\"에이 손님.. 돈도 없으면서.. 나가요 나가!\"\n");
+                        Console.WriteLine("\n\"에이 손님.. 돈도 없으면서.. 나가요 나가!\"");
                         Console.WriteLine("(쫒겨났다.)\n");
                         Console.ResetColor();
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -172,7 +172,7 @@ namespace TextGameProject
                 }
                 else
                 {
-                    Console.WriteLine("잘못된 입력입니다. 다시 시도하세요.");
+                    Console.WriteLine("\t\t\t\t\t[올바른 옵션을 선택하세요.]");
                 }
             }
             else if (input2 == 0)

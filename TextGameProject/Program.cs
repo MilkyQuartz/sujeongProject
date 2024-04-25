@@ -133,8 +133,19 @@ namespace TextGameProject
                         inputCheck = true;
                         break;
                     case 4:
-                        Adventure.DisplayLevel(player, fileManager);
-                        inputCheck = true;
+                        if(player.health < 30)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\t\t\t[체력이 30% 미만입니다. 휴식을 취하고 오세요.]");
+                            Console.ResetColor();
+                            Bar.DisplayHealth(player, fileManager);
+                            inputCheck = true;
+                        }
+                        else
+                        {
+                            Adventure.DisplayLevel(player, fileManager);
+                            inputCheck = true;
+                        }
                         break;
                     case 5:
                         Bar.DisplayHealth(player, fileManager);

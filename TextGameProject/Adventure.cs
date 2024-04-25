@@ -10,6 +10,14 @@ namespace TextGameProject
 
             while (!inputCheck)
             {
+                if (player.health < 30)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\t\t\t[체력이 30% 미만입니다. 휴식을 취하고 오세요.]");
+                    Console.ResetColor();
+                    Bar.DisplayHealth(player, fileManager);
+                    inputCheck = true;
+                }
                 Console.WriteLine("  ===========================================================================================");
                 Console.WriteLine("  |                                       던    전                                          |");
                 Console.WriteLine("  ===========================================================================================");
